@@ -73,7 +73,7 @@ p{
 
 
 .Header-img{
-  width: 1250px;
+  width: 1248px;
 
 }
 
@@ -196,6 +196,7 @@ font-size: 17px;
 
 
 
+
 @media (max-width: 992px) {
 
   p{
@@ -210,3 +211,21 @@ font-size: 17px;
 .about-text{padding-left: 0;
 padding-right: 0;}
   }
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  p{
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .Header-img{
+
+    width: 100%
+  }
+.about-text{padding-left: 0;
+padding-right: 0;}
+}
